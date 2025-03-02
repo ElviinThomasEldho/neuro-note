@@ -1,0 +1,69 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node.js / React frontend
+frontend/node_modules/
+frontend/build/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.nuxt/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Python backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/.Python
+backend/env/
+backend/venv/
+backend/.venv/
+backend/instance/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.tox/
+backend/.nox/
+backend/coverage.xml
+backend/nosetests.xml
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Virtual environment
+.env/
+.venv/
+
+# Logs and temp files
+logs/
+*.log
+*.swp
+*.swo
+*.swn
+*.bak
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# System files
+*.DS_Store
+*.lock
+*.sublime-workspace
